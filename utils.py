@@ -1,4 +1,4 @@
-from app import db, engine, async_session
+from core import db, engine, async_session
 from model import User
 
 async def create_all():
@@ -9,5 +9,5 @@ async def create_all():
 async def create():
     async with async_session() as session:
             async with session.begin():
-                    session.add(User(name='jose'))
+                    session.add(User(name='José', username='jose', _password='secret'))
             await session.commit()
