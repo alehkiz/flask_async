@@ -14,7 +14,8 @@ Aplicação utilizando async no flask e Sqlalchemy
 
 - [x] Modo assíncrono com Flask
 - [x] Consultas assíncronas com SqlAlchemy
-- [x] Crud para cadastro de usuários
+- [] Crud para cadastro de usuários
+- [] React?
 
 ## 💻 Pré-requisitos
 
